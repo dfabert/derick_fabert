@@ -1,0 +1,29 @@
+{
+  "name": "derick_fabert",
+  "version": "1.0.0",
+  "description": "React.js portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfabert/derick_fabert.git"
+  },
+  "keywords": [
+    "Portfolio",
+    "React",
+    "ReactDom",
+    "Projects"
+  ],
+  "author": "Derick Fabert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfabert/derick_fabert/issues"
+  },
+  "homepage": "https://github.com/dfabert/derick_fabert#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
