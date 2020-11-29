@@ -13,6 +13,9 @@ function NavTabs() {
         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
           About Me
         </Link>
+        <Link to="/Portfolio" className={location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}>
+          Portfolio
+        </Link>
       </li>
     </ul>
   );
