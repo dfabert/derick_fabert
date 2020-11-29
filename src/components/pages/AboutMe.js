@@ -3,7 +3,7 @@ import image_github from '../../assets/Photos/GitHub-Mark.png';
 import image_LinkedIn from '../../assets/Photos/LI-In-Bug.png';
 import image_twitter from '../../assets/Photos/Twitter_Logo_WhiteOnBlue.png';
 
-function About() {
+function AboutMe() {
   return (
     <div class="container-sm">
       <div class="row">
@@ -35,4 +35,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutMe;
