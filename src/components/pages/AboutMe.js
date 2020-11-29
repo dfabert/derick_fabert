@@ -5,7 +5,7 @@ import image_twitter from '../../assets/Photos/Twitter_Logo_WhiteOnBlue.png';
 
 function About() {
   return (
-    <div class="container-sm"  class="d-flex justify-content-center">
+    <div class="container-sm">
       <div class="row">
         <div class="col-sm-9" style={{padding: "50px"}}>
             <h1>Glen Derick Fabert</h1>
