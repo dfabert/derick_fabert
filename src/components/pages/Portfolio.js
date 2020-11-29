@@ -1,6 +1,6 @@
 import React from "react";
 
-function About() {
+function Portfolio() {
   return (
     <div class="container-sm">
       <div class="row" style={{padding: "50px"}}>
@@ -11,4 +11,4 @@ function About() {
   );
 }
 
-export default About;
+export default Portfolio;
