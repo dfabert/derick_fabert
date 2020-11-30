@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 function ProjectCard(props) {
     return (
-      <div>
+      <div class = 'row'>
           {props.projects.map(project => (
             <Card style={{ width: '19rem' }}>
             <Card.Img variant="top" src={project.image} />
