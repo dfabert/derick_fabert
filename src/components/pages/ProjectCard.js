@@ -6,16 +6,15 @@ function ProjectCard(props) {
     return (
       <div>
           {props.projects.map(project => (
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card style={{ width: '19rem' }}>
+            <Card.Img variant="top" src={project.image} />
             <Card.Body>
                 <Card.Title>{project.name}</Card.Title>
                 <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
+                    {project.description}
                 </Card.Text>
-                <Button variant="primary">Deployed App</Button>
-                <Button variant="primary">Github Link</Button>
+                <Button variant="primary" href = {project.link}>Deployed App</Button>
+                <Button variant="primary" href = {project.repo}>Github Repo</Button>
             </Card.Body>
             </Card>
             ))}
