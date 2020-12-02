@@ -5,10 +5,9 @@ import AboutMe from "./components/pages/AboutMe";
 import Portfolio from "./components/pages/Portfolio";
 import Footer from './components/Footer';
 
-
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <NavTabs />
         <Route exact path="/" component={AboutMe} />
