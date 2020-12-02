@@ -8,7 +8,7 @@ function AboutMe() {
     <div class="container-sm">
       <div class="row">
         <div class="col-sm-9" style={{padding: "50px"}}>
-            <h1>Glen Derick Fabertttttttttttttttttttttt</h1>
+            <h1>Glen Derick Fabert</h1>
           <div>
             <p>I'm Glen Derick Fabert, but I go by Derick.  Welcome to my page.  I am currently a real estate representative for a billboard company, but I am looking to get back to my STEM roots.  For the first 10 years after college, I was a broadcast meteorologist.  During that time, I had some experience in front end web development and it piqued my interest.  A few years later, I am excited to be pursuing a career in web development.</p>
             <p>I recently got married to a wonderful woman named Anna.  We live near Mooresville, IN.  I am originally from Brooklyn, IN, which is about 5 minutes south of Mooresville.  Previously, I lived in Sioux Falls, SD and Champaign, IL, both of which I moved to while pursuing my broadcast meteorology career.</p>
