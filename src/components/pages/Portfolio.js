@@ -6,12 +6,10 @@ function Portfolio() {
 
   return (
     <div class="container-sm">
-      <div class="row" style={{padding: "50px"}}>
+      <div className="row" style={{padding: "50px"}}>
             <h1>Web Development Portfolio</h1>
       </div>
-      <div class='row'>
         <ProjectCard projects={projects} />
-      </div>
     </div>
   );
 }
