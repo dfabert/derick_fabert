@@ -11,7 +11,7 @@ function NavTabs() {
 <>
   <Navbar bg="dark" variant="dark" sticky='top'>
     <Navbar.Brand as={Link} to="/" >Glen Derick Fabert</Navbar.Brand>
-    <Nav className="justify-content-center" variant='pills'>
+    <Nav className="d-flex justify-content-center">
       <Nav.Link as={Link} to="/">Home</Nav.Link>
       <Nav.Link as={Link}  to="/portfolio">Portfolio</Nav.Link>
       <NavDropdown title="Contact" id="basic-nav-dropdown">

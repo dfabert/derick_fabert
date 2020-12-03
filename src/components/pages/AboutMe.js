@@ -18,16 +18,16 @@ function AboutMe() {
         </div>
         <div class='col-sm-3' style={{padding: "20px"}}>
           <div class = 'links'>
-            <a class="btn btn-primary" style={{width: "115px", marginTop: "5px"}}  href="https://dfabert.github.io/DerickFabert/assets/Glen%20Derick%20Fabert%20Resume.pdf" target="_blank" role="button">Resume</a>
+            <a class="btn btn-primary" style={{width: "115px", marginTop: "20px"}}  href="https://dfabert.github.io/DerickFabert/assets/Glen%20Derick%20Fabert%20Resume.pdf" target="_blank" role="button">Resume</a>
           </div>
           <div class = 'links'>
-            <a href="https://github.com/dfabert" target="_blank"><img style={{width: "115px", marginTop: "5px"}} src={image_github} alt="Github Logo" /></a>
+            <a href="https://github.com/dfabert" target="_blank"><img style={{width: "115px"}} src={image_github} alt="Github Logo" /></a>
           </div>
           <div class = 'links'>
-            <a href="https://www.linkedin.com/in/derick-fabert" target="_blank"><img style={{width: "115px", marginTop: "5px"}} src={image_LinkedIn} alt="LinkedIn Logo" /></a>
+            <a href="https://www.linkedin.com/in/derick-fabert" target="_blank"><img style={{width: "115px"}} src={image_LinkedIn} alt="LinkedIn Logo" /></a>
           </div>
           <div class = 'links'>
-            <a href="https://twitter.com/derick_fabert?lang=en" target="_blank"><img style={{width: "115px", marginTop: "5px"}} src={image_twitter} alt="TwitterLogo" /></a>
+            <a href="https://twitter.com/derick_fabert?lang=en" target="_blank"><img style={{width: "115px"}} src={image_twitter} alt="TwitterLogo" /></a>
           </div>
         </div>
       </div>

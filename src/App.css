@@ -8,6 +8,7 @@ body {
 
 .links {
     padding: 20px;
+    width: "115px"
 }
 
 h1, p {
@@ -18,9 +19,9 @@ h1, p {
     background-color: rgba(0, 0, 0, 0.95);
 }
 
-p {
+/* p {
     padding-left: 10px;
-}
+} */
 
 .card-text {
     color: black;
