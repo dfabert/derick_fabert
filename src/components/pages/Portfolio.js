@@ -5,7 +5,7 @@ import projects from '../../assets/Data/Projects';
 function Portfolio() {
 
   return (
-    <div class="container-sm">
+    <div className="container-sm">
       <div className="row" style={{padding: "50px"}}>
             <h1>Web Development Portfolio</h1>
       </div>
