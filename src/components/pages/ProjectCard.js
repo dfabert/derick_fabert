@@ -6,6 +6,7 @@ import Row from 'react-bootstrap/Row';
 
 function ProjectCard(props) {
     return (
+    <div>
       <Row>
           {props.projects.map(project => (
             <Col className="d-flex justify-content-center">
@@ -23,6 +24,7 @@ function ProjectCard(props) {
             </Col>
             ))}
       </Row>
+    </div>
     )
   }
   

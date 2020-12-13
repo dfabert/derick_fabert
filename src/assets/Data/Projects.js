@@ -1,6 +1,16 @@
 const projects = [
     {
       id: 1,
+      name:  "Google Books Save",
+      description: "This application allows a user to search for books in google books and then save the books to be read later.",
+      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
+      image:  "https://github.com/dfabert/GoogleBooks/blob/main/client/public/images/Deployed_Saved.JPG?raw=true",
+      link: "https://booklist0823.herokuapp.com/",
+      repo: 'https://github.com/dfabert/GoogleBooks'
+
+    },
+    {
+      id: 1,
       name:  "Day Planner",
       description: "This application is a single day planner where the user can enter tasks for each hour.  As the day goes on, the background colors will update for the current time as well as the past hours",
       technologies: ['HTML5', 'CSS', 'Javascript'],
