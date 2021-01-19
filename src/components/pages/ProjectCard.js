@@ -17,8 +17,8 @@ function ProjectCard(props) {
                   <Card.Text>
                       {project.description}
                   </Card.Text>
-                  <Button variant="primary" href = {project.link}>Deployed App</Button>
-                  <Button variant="primary" href = {project.repo}>Github Repo</Button>
+                  <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>
+                  <Button variant="primary" href = {project.repo} target = "_blank">Github Repo</Button>
               </Card.Body>
               </Card>
             </Col>
