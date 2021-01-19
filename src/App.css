@@ -11,17 +11,18 @@ body {
     width: "115px"
 }
 
-h1, p {
+h1, p, h5 {
     color: whitesmoke
+}
+
+h5 {
+  padding-left: 15px;
+  padding-bottom: 5px;
 }
 
 .container-sm  {
     background-color: rgba(0, 0, 0, 0.95);
 }
-
-/* p {
-    padding-left: 10px;
-} */
 
 .card-text {
     color: black;

@@ -8,12 +8,14 @@ function AboutMe() {
     <div className="container-sm">
       <div className="row">
         <div className="col-sm-9" style={{padding: "50px"}}>
-            <h1>Glen Derick Fabert</h1>
+            <h1>Derick Fabert</h1>
+            <h5>Full Stack Web Developer</h5>
           <div>
-            <p>I'm Glen Derick Fabert, but I go by Derick.  Welcome to my page.  I am currently a real estate representative for a billboard company, but I am looking to get back to my STEM roots.  For the first 10 years after college, I was a broadcast meteorologist.  During that time, I had some experience in front end web development and it piqued my interest.  A few years later, I am excited to be pursuing a career in web development.</p>
-            <p>I recently got married to a wonderful woman named Anna.  We live near Mooresville, IN.  I am originally from Brooklyn, IN, which is about 5 minutes south of Mooresville.  Previously, I lived in Sioux Falls, SD and Champaign, IL, both of which I moved to while pursuing my broadcast meteorology career.</p>
-            <p>Weather remains a big passion of mine.  During my time as a broadcast meteorologist, I covered everything from a blizzard that brought 24 inches of snow to Sioux Falls, an EF-3 tornado that tore through the town of Gifford, IL and the drought of 2012, which was the most boring summer.  I was even lucky enough to be named the best mid-market meteorologist in the state of Illinois.</p>
-            <p>In my spare time, I enjoy woodworking and Indycar racing.</p>
+            <p>I am a full stack web developer with broadcast meteorology, management, and real estate experience.  I recently graduated from Butler's Web Development Bootcamp, but my passion for web development actually started several years ago when I was a broadcast meteorologist.  Using a website to communicate with our viewers facinated me.  </p>
+            <p>I bugged the web manager at work so much that he eventually gave me administrative privileges and set up a "test bed" for me to play with.  I spend many late nights developing several of what I called "takeovers" for the weather section of the website.  They were to be used when different significant weather events were in the forecast.  On the night before a tornado outbreak, I deployed my first takeover. The next day, as 8 tornadoes tore through our viewing area, we have live coverage on our website and mobile app.</p>
+            <p>I did leave the TV business but the web development bug never really left.  Therefore I enrolled in Butler's Full Stack Web Development to learn the full power of the tools that the web provides.  Boy, if I could go back and remake those takeovers now.  I really enjoy building web applications and finding new ways to improve them over and over.</p>
+            <p>In addition to my Web Development Certificate, I also have a Bachelor of Science degree in Broadcast Meteorology.  For 10 years I was on-air and became a Chief Meteorologist at the CBS affiliate in central Illinois.  I covered everything from blizzards to tornadoes during that time.  </p>
+            <p>I live near Mooresville, IN with my wife Anna.  In my spare time I enjoy all sports, specifically Indycar and I also am a novice woodworker.  Woodworking is another activity where I can build and improve projects.</p>
           </div>
         </div>
         <div className='col-sm-3' style={{padding: "20px"}}>

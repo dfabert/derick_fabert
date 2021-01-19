@@ -10,16 +10,8 @@ body {
     padding: 20px;
 }
 
-h1, p {
-    color: whitesmoke
-}
-
 .container-sm  {
     background-color: rgba(0, 0, 0, 0.95);
-}
-
-p {
-    padding-left: 10px;
 }
 
 .card-text {
@@ -29,7 +21,6 @@ p {
 .btn-primary {
     margin: 2px;
 }
-
 
 .dropbtn {
   background-color: #4CAF50;

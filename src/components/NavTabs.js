@@ -10,7 +10,7 @@ function NavTabs() {
   return (
 <>
   <Navbar expand = 'md' bg="dark" variant="dark" sticky='top' >
-    <Navbar.Brand as={Link} to="/" >Glen Derick Fabert</Navbar.Brand>
+    <Navbar.Brand as={Link} to="/" >Derick Fabert</Navbar.Brand>
     <Nav className="d-flex justify-content-center">
       <Nav.Link as={Link} to="/">Home</Nav.Link>
       <Nav.Link as={Link}  to="/portfolio">Portfolio</Nav.Link>
