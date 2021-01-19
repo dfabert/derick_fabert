@@ -1,5 +1,15 @@
 const projects = [
     {
+      id: 0,
+      name:  "OmniCalculator",
+      description: "All of the calculators you need in one place!",
+      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
+      image:  "https://github.com/dfabert/GoogleBooks/blob/main/client/public/images/Deployed_Saved.JPG?raw=true",
+      link: "https://omnicalculator2020.herokuapp.com",
+      repo: 'https://github.com/dfabert/CalculatorApp'
+
+    },
+    {
       id: 1,
       name:  "Google Books Save",
       description: "This application allows a user to search for books in google books and then save the books to be read later.",
