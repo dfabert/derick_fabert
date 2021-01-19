@@ -4,7 +4,7 @@ const projects = [
       name:  "OmniCalculator",
       description: "All of the calculators you need in one place!",
       technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
-      image:  "https://github.com/dfabert/GoogleBooks/blob/main/client/public/images/Deployed_Saved.JPG?raw=true",
+      image:  "https://github.com/dfabert/derick_fabert/blob/main/src/assets/Photos/OmniCalc.JPG?raw=true",
       link: "https://omnicalculator2020.herokuapp.com",
       repo: 'https://github.com/dfabert/CalculatorApp'
 
