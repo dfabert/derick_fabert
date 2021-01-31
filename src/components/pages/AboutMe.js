@@ -11,7 +11,7 @@ function AboutMe() {
             <h1>Derick Fabert</h1>
             <h5>Full Stack Web Developer</h5>
           <div>
-            <img src="https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true" style={{float: "left", margin: "8px", width: "150px"}}/>
+            <img src="https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true" alt="Derick Fabert" style={{float: "left", margin: "8px", width: "150px"}}/>
           </div>
           <div>
             <p>I am a full stack web developer with broadcast meteorology, management, and real estate experience.  I recently graduated from Butler's Web Development Bootcamp, but my passion for web development actually started several years ago when I was a broadcast meteorologist.  Using a website to communicate with our viewers facinated me.  </p>
