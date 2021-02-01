@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from './ProjectCard';
 import projects from '../../assets/Data/Projects';
+import Dropdown from './Dropdown';
 
 function Portfolio() {
   let techOptions=[];
@@ -15,9 +16,10 @@ function Portfolio() {
  
 
   return (
-    <div className="container-sm">
-      <div className="row" style={{padding: "50px"}}>
+    <div className='container-sm'>
+      <div style={{padding: '50px', flexDirection: 'row', justifyContent: 'space-between' }}>
             <h1>Web Development Portfolio</h1>
+            {/* <Dropdown style={{ marginLeft: 'auto' }}  title ={'Filter By Technologies'} options={techOptions}/> */}
       </div>
         <ProjectCard projects={projects} />
     </div>

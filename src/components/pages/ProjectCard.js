@@ -30,9 +30,9 @@ function ProjectCard(props) {
                   <Card.Title style={{background: "cornflowerblue", color: "white", padding: "4px"}}>{project.name}</Card.Title>
                   <Card.Img style={{height: '7rem', width: 'auto', maxWidth: '17rem', display: 'block', marginLeft: "auto", marginRight: "auto"}} src={project.image} />
                   <hr/>
-                  <Card.Text style={{height: '6rem'}}>{project.description}</Card.Text>
+                  <Card.Text style={{height: '7rem'}}>{project.description}</Card.Text>
                   <hr/>
-                  <Card.Text style={{height: '6rem'}}>Technologies Used:  {project.techString} </Card.Text>
+                  <Card.Text style={{height: '5rem'}}>Technologies Used:  {project.techString} </Card.Text>
                   <hr/>
                   <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>
                   <Button variant="primary" href = {project.repo} target = "_blank">Github Repo</Button>
