@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 
 function ProjectCard(props) {
-  let techOptions=[];
+  
     for(let i = 0; i < props.projects.length; i++){
       let techString='';
       for(let j = 0; j < props.projects[i].technologies.length; j++){  
@@ -14,17 +14,11 @@ function ProjectCard(props) {
         }else{
           techString = techString + " & " + props.projects[i].technologies[j];
         }
-
-        //Create an array for a dropdown menu
-        if(!techOptions.includes(props.projects[i].technologies[j])){
-          techOptions.push(props.projects[i].technologies[j])
-        }
-
       }
       props.projects[i].techString = techString;
     }
 
-    console.log(techOptions);
+    
 
     return (
     <div>
