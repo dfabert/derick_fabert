@@ -20,7 +20,7 @@ const projects = [
 
     },
     {
-      id: 1,
+      id: 9,
       name:  "Day Planner",
       description: "This application is a single day planner where the user can enter tasks for each hour.  As the day goes on, the background colors will update for the current time as well as the past hours",
       technologies: ['HTML5', 'CSS', 'Javascript'],

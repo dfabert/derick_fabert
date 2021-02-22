@@ -18,14 +18,12 @@ function ProjectCard(props) {
       props.projects[i].techString = techString;
     }
 
-    
-
     return (
     <div>
       <Row>
           {props.projects.map(project => (
-            <Col className="d-flex justify-content-center">
-              <Card style={{ width: '20rem', height: '32rem',  margin: '5px' }} >
+            <Col className="d-flex justify-content-center" key={project.id} >
+              <Card style={{ width: '20rem', height: '32rem',  margin: '5px' }}>
               <Card.Body>
                   <Card.Title style={{background: "cornflowerblue", color: "white", padding: "4px"}}>{project.name}</Card.Title>
                   <Card.Img style={{height: '7rem', width: 'auto', maxWidth: '17rem', display: 'block', marginLeft: "auto", marginRight: "auto"}} src={project.image} />

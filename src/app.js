@@ -7,15 +7,16 @@ import Footer from './components/Footer';
 
 
 function App() {
+
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <div>
-        <NavTabs />
-        <Route exact path="/" component={AboutMe} />
-        <Route exact path="/Portfolio" component={Portfolio}/>
-        <Footer />
-      </div>
-    </Router>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div>
+          <NavTabs />
+          <Route exact path="/" component={AboutMe} />
+          <Route exact path="/Portfolio" component={Portfolio}/>
+          <Footer />
+        </div>
+      </Router>
   );
 }
 

@@ -1,28 +1,50 @@
-import React from "react";
+import { React, useState } from 'react';
 import ProjectCard from './ProjectCard';
 import projects from '../../assets/Data/Projects';
-import Dropdown from './Dropdown';
+import Dropdown from '../Dropdown';
 
-function Portfolio() {
-  let techOptions=[];
-  for(let i = 0; i < projects.length; i++){
-    for(let j = 0; j < projects[i].technologies.length; j++){
-      if(!techOptions.includes(projects[i].technologies[j])){
-        techOptions.push(projects[i].technologies[j])
+function Portfolio(props) {
+  const [filtered, setFiltered] = useState([]);
+
+    let techOptions=[];
+    for(let i = 0; i < projects.length; i++){
+      projects[i].display = false;
+      for(let j = 0; j < projects[i].technologies.length; j++){
+        if(!techOptions.includes(projects[i].technologies[j])){
+          techOptions.push(projects[i].technologies[j])
+        }
       }
     }
+    techOptions.sort();
+
+  const filterProjects = (data) => {
+    //Make Filter Array
+    let selection = data; //Made blank since we're only doing one at a time for now
+    console.log(selection);
+
+    //Change Display Properties for those selected, push to array for display
+    let tempArray = [];
+    for(let i = 0; i < projects.length; i++){
+      if(projects[i].technologies.includes(selection)){
+        projects[i].display = true;
+        console.log(projects[i]);
+        tempArray.push(projects[i]);
+      }
+    }
+    setFiltered(tempArray);
   }
-  techOptions.sort();
- 
+
+
 
   return (
-    <div className='container-sm'>
-      <div style={{padding: '50px', flexDirection: 'row', justifyContent: 'space-between' }}>
-            <h1>Web Development Portfolio</h1>
-            {/* <Dropdown style={{ marginLeft: 'auto' }}  title ={'Filter By Technologies'} options={techOptions}/> */}
+      <div className='container-sm'>
+        <div style={{padding: '50px', flexDirection: 'row', justifyContent: 'space-between' }}>
+              <h1>Web Development Portfolio</h1>
+              <Dropdown header={'Filter By Technology'} options={techOptions} filterProjects={filterProjects}/>
+        </div>
+        {/* <ProjectCard projects={filtered} /> */}
+        <ProjectCard projects={filtered.length === 0 ? projects : filtered} />
       </div>
-        <ProjectCard projects={projects} />
-    </div>
   );
 }
 
