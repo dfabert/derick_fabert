@@ -95,6 +95,16 @@ const projects = [
       link: "https://salty-chamber-71317.herokuapp.com/?id=5fa55f8c2109c900177139f0",
       repo: 'https://github.com/dfabert/WorkoutTracker'
     }
+    ,
+    {
+      id: 10,
+      name:  "This Portfolio",
+      description: "I built this portfolio on React and I usually test most of my new skills somewhere on here first.",
+      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
+      image:  "https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true",
+      link: "https://dfabert.github.io/derick_fabert/",
+      repo: 'https://github.com/dfabert/derick_fabert'
+    }
   ]
 
 export default projects;
