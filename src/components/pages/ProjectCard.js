@@ -20,10 +20,10 @@ function ProjectCard(props) {
 
     return (
     <div>
-      <Row>
+      <Row style={{}}>
           {props.projects.map(project => (
             <Col className="d-flex justify-content-center" key={project.id} >
-              <Card style={{ width: '20rem', height: '32rem',  margin: '5px' }}>
+              <Card style={{ width: '20rem', height: '32rem',  margin: '5px',  }}>
               <Card.Body>
                   <Card.Title style={{background: "cornflowerblue", color: "white", padding: "4px"}}>{project.name}</Card.Title>
                   <Card.Img style={{height: '7rem', width: 'auto', maxWidth: '17rem', display: 'block', marginLeft: "auto", marginRight: "auto"}} src={project.image} />
@@ -32,8 +32,10 @@ function ProjectCard(props) {
                   <hr/>
                   <Card.Text style={{height: '5rem'}}>Technologies Used:  {project.techString} </Card.Text>
                   <hr/>
-                  <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>
-                  <Button variant="primary" href = {project.repo} target = "_blank">Github Repo</Button>
+                  <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
+                    <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>
+                    <Button variant="primary" href = {project.repo} target = "_blank">Github Repo</Button>
+                  </div>
               </Card.Body>
               </Card>
             </Col>
