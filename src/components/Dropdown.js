@@ -10,20 +10,20 @@ function Dropdown({header, options, filterProjects }) {
   }
 
   return (
-    <div>
+    <div style={{alignSelf: 'flex-end'}}>
       <div role="button" onKeyPress={() => toggle(!open)} onClick={() => toggle(!open)}>
         <div>
           <p>{header}</p>
         </div>
       </div>
       {open && (
-        <ul>
+        <list>
           {options.map(item => (
               <div style={{ margin: "5px", float: 'left', color: 'whitesmoke' }} onClick={() => handleSelection(item)}>
-                <span>{item}</span>
+                <ul>{item}</ul>
               </div>
           ))}
-        </ul>
+        </list>
       )}
     </div>
   );

@@ -34,11 +34,9 @@ function Portfolio(props) {
     setFiltered(tempArray);
   }
 
-
-
   return (
       <div className='container-sm'>
-        <div style={{padding: '50px', flexDirection: 'row', justifyContent: 'space-between' }}>
+        <div style={{padding: '50px', display: 'flex', justifyContent: 'space-between'}}>
               <h1>Web Development Portfolio</h1>
               <Dropdown header={'Filter By Technology'} options={techOptions} filterProjects={filterProjects}/>
         </div>
