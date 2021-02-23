@@ -17,13 +17,13 @@ function Dropdown({header, options, filterProjects }) {
         </div>
       </div>
       {open && (
-        <list>
+        <div style={{position: 'absolute', zIndex: '1', maxWidth: '150px', margin: '10px', backgroundColor: 'black', outline: '1px solid grey' }}>
           {options.map(item => (
-              <div style={{ margin: "5px", float: 'left', color: 'whitesmoke' }} onClick={() => handleSelection(item)}>
-                <ul>{item}</ul>
+              <div style={{ margin: "5px", color: 'whitesmoke' }} onClick={() => handleSelection(item)}>
+                <div>{item}</div>
               </div>
           ))}
-        </list>
+        </div>
       )}
     </div>
   );
