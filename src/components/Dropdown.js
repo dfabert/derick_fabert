@@ -9,15 +9,24 @@ function Dropdown({header, options, filterProjects }) {
     toggle(!open);
   }
 
+  const ddContent = {
+    position: 'absolute',
+    zIndex: '1',
+    maxWidth: '150px',
+    margin: '10px',
+    backgroundColor: 'black',
+    outline: '1px solid grey'
+  };
+
   return (
     <div style={{alignSelf: 'flex-end'}}>
       <div role="button" onKeyPress={() => toggle(!open)} onClick={() => toggle(!open)}>
         <div>
-          <p>{header}</p>
+          <p >{header}</p>
         </div>
       </div>
       {open && (
-        <div style={{position: 'absolute', zIndex: '1', maxWidth: '150px', margin: '10px', backgroundColor: 'black', outline: '1px solid grey' }}>
+        <div style={ddContent}>
           {options.map(item => (
               <div style={{ margin: "5px", color: 'whitesmoke' }} onClick={() => handleSelection(item)}>
                 <div>{item}</div>
