@@ -30,7 +30,7 @@ function ProjectCard(props) {
                   <hr/>
                   <Card.Text style={{height: '7rem'}}>{project.description}</Card.Text>
                   <hr/>
-                  <Card.Text style={{height: '5rem'}}>Technologies Used:  {project.techString} </Card.Text>
+                  <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b>  {project.techString} </Card.Text>
                   <hr/>
                   <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
                     <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>
