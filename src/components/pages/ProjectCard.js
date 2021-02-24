@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import './ProjectCard.css';
 
 function ProjectCard(props) {
   
@@ -22,15 +23,15 @@ function ProjectCard(props) {
     <div>
       <Row style={{}}>
           {props.projects.map(project => (
-            <Col className="d-flex justify-content-center" key={project.id} >
-              <Card style={{ width: '20rem', height: '32rem',  margin: '5px',  }}>
+            <Col className="d-flex justify-content-center" key={project.id}>
+              <Card className='Card'>
               <Card.Body>
-                  <Card.Title style={{background: "cornflowerblue", color: "white", padding: "4px"}}>{project.name}</Card.Title>
-                  <Card.Img style={{height: '7rem', width: 'auto', maxWidth: '17rem', display: 'block', marginLeft: "auto", marginRight: "auto"}} src={project.image} />
+                  <Card.Title className='CardTitle'>{project.name}</Card.Title>
+                  <Card.Img className='CardImage' style={{width: 'auto'}} src={project.image} />
                   <hr/>
                   <Card.Text style={{height: '7rem'}}>{project.description}</Card.Text>
                   <hr/>
-                  <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b>  {project.techString} </Card.Text>
+                  <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b> {project.techString}</Card.Text>
                   <hr/>
                   <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
                     <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>

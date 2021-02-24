@@ -1,0 +1,19 @@
+.Card { 
+    width: 20rem;
+    height: 32rem;
+    margin: 5px;
+  }
+
+.CardTitle {
+    background: cornflowerblue;
+    color: white;
+    padding: 4px;
+}
+
+.CardImage {
+    height: 7rem;
+    max-width: 17rem; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
