@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
+import Tooltip from 'react-bootstrap/Tooltip'
 import './ProjectCard.css';
 
 function ProjectCard(props) {
@@ -20,8 +22,8 @@ function ProjectCard(props) {
     }
 
     return (
-    <div>
-      <Row style={{}}>
+      <div>
+        <Row>
           {props.projects.map(project => (
             <Col className="d-flex justify-content-center" key={project.id}>
               <Card className='Card'>
@@ -29,7 +31,10 @@ function ProjectCard(props) {
                   <Card.Title className='CardTitle'>{project.name}</Card.Title>
                   <Card.Img className='CardImage' style={{width: 'auto'}} src={project.image} />
                   <hr/>
-                  <Card.Text style={{height: '7rem'}}>{project.description}</Card.Text>
+                  <OverlayTrigger placement="right" delay={{ show: 250, hide: 400 }}overlay={
+                    <Tooltip id="button-tooltip" {...props}>{project.description}</Tooltip>}>
+                    <Button variant="success">Hover For Description</Button>
+                  </OverlayTrigger>
                   <hr/>
                   <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b> {project.techString}</Card.Text>
                   <hr/>
@@ -40,9 +45,9 @@ function ProjectCard(props) {
               </Card.Body>
               </Card>
             </Col>
-            ))}
-      </Row>
-    </div>
+          ))}
+        </Row>
+     </div>
     )
   }
   
