@@ -40,7 +40,6 @@ function Portfolio(props) {
               <h1>Web Development Portfolio</h1>
               <Dropdown header={'Filter By Technology'} options={techOptions} filterProjects={filterProjects}/>
         </div>
-        {/* <ProjectCard projects={filtered} /> */}
         <ProjectCard projects={filtered.length === 0 ? projects : filtered} />
       </div>
   );

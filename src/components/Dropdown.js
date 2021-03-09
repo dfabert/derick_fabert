@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Dropdown({header, options, filterProjects }) {
+function Dropdown({ header, options, filterProjects }) {
   const [open, setOpen] = useState(false);
   const toggle = () => setOpen(!open);
 
@@ -22,7 +22,7 @@ function Dropdown({header, options, filterProjects }) {
     <div style={{alignSelf: 'flex-end'}}>
       <div role="button" onKeyPress={() => toggle(!open)} onClick={() => toggle(!open)}>
         <div>
-          <p >{header}</p>
+          <p>{header}</p>
         </div>
       </div>
       {open && (
