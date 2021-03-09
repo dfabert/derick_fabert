@@ -30,7 +30,7 @@ function ProjectCard(props) {
                   <Card.Title className='CardTitle'>{project.name}</Card.Title>
                   <Card.Img className='CardImage' style={{width: 'auto'}} src={project.image} />
                   <hr/>
-                  <Popup content = {project.description}></Popup>
+                  <Popup content = {project.description} ></Popup>
                   <hr/>
                   <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b> {project.techString}</Card.Text>
                   <hr/>
