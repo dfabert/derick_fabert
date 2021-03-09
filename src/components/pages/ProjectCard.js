@@ -4,8 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Popup from '../PopUp';
-import OverlayTrigger from 'react-bootstrap/OverlayTrigger';
-import Tooltip from 'react-bootstrap/Tooltip';
 import './ProjectCard.css';
 
 function ProjectCard(props) {
@@ -32,10 +30,6 @@ function ProjectCard(props) {
                   <Card.Title className='CardTitle'>{project.name}</Card.Title>
                   <Card.Img className='CardImage' style={{width: 'auto'}} src={project.image} />
                   <hr/>
-                  {/* <OverlayTrigger placement="right" delay={{ show: 250, hide: 400 }}overlay={
-                    <Tooltip id="button-tooltip" {...props}>{project.description}</Tooltip>}>
-                    <Button variant="success">Hover For Description</Button>
-                  </OverlayTrigger> */}
                   <Popup content = {project.description}></Popup>
                   <hr/>
                   <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b> {project.techString}</Card.Text>
