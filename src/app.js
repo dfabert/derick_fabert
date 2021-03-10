@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
 
   return (
-      <Router basename={'https://dfabert.github.io/derick_fabert'}>
+      <Router basename={'process.env.PUBLIC_URL'}>
         <div>
           <NavTabs />
           <Route exact path="/" component={AboutMe} />
