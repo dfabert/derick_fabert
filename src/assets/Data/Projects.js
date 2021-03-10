@@ -1,7 +1,7 @@
 const projects = [
     {
       id: 0,
-      name:  "Omni-Calculator",
+      name:  "OmniCalculator",
       description: "All of the calculators you need in one place!",
       technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
       image:  "https://github.com/dfabert/derick_fabert/blob/main/src/assets/Photos/OmniCalc.JPG?raw=true",
