@@ -32,7 +32,7 @@ function ProjectCard(props) {
                   <hr/>
                   <Popup content = {project.description} ></Popup>
                   <hr/>
-                  <Card.Text style={{height: '5rem'}}><b>Technologies Used:</b> {project.techString}</Card.Text>
+                  <Card.Text style={{height: '4rem'}}><b>Technologies Used:</b> {project.techString}</Card.Text>
                   <hr/>
                   <div style={{display: 'flex', justifyContent: 'space-evenly'}}>
                     <Button variant="primary" href = {project.link} target = "_blank">Deployed App</Button>
