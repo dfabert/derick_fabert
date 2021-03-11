@@ -36,7 +36,7 @@ function Portfolio(props) {
 
   return (
       <div className='container-sm'>
-        <div style={{padding: '50px', display: 'flex', justifyContent: 'space-between'}}>
+        <div style={{padding: '50px', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'}}>
               <h1>Web Development Portfolio</h1>
               <Dropdown header={'Filter By Technology'} options={techOptions} filterProjects={filterProjects}/>
         </div>
