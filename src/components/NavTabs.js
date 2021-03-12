@@ -14,12 +14,10 @@ function NavTabs() {
         <Nav className = 'ml-auto'>
           <Nav.Link as={Link} to="/">Home</Nav.Link>
           <Nav.Link as={Link}  to="/portfolio">Portfolio</Nav.Link>
-          <NavDropdown alignRight title="Contact" id="collasible-nav-dropdown">
-            <div style={{right: 0, left: "auto"}}>
-            <NavDropdown.Item><a href="tel:1-317-258-0021">Phone:  (317) 258-0021</a></NavDropdown.Item>
+          <NavDropdown alignRight title="Contact">
+            <NavDropdown.Item href="tel:1-317-258-0021" active={false}>Phone:  (317) 258-0021</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item><a href="mailto:glen.fabert@gmail.com">E-mail:  glen.fabert@gmail.com</a></NavDropdown.Item>
-            </div>
+            <NavDropdown.Item href='mailto:glen.fabert@gmail.com' active={false}>E-mail:  glen.fabert@gmail.com</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar>
