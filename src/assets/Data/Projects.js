@@ -22,7 +22,7 @@ const projects = [
     {
       id: 10,
       name:  "This Portfolio",
-      description: "I built this portfolio on React and I usually test most of my new skills somewhere on here first.",
+      description: "I built this portfolio on React and I usually test most of my new skills somewhere on here first. Many of the components I have made for this application can be repurposed for other applications",
       technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
       image:  "https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true",
       link: "https://dfabert.github.io/derick_fabert/",
