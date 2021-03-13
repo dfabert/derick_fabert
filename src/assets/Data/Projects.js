@@ -12,8 +12,8 @@ const projects = [
     {
       id: 1,
       name:  "Google Books Save",
-      description: "This application allows a user to search for books in google books and then save the books to be read later.",
-      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
+      description: "This application allows a user to search for books in google books and then save the books to be read later.  It is an example of calling information from an API, but saving the user input to a MongoDB.",
+      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript', 'Node', 'Express', 'MongoDB'],
       image:  "https://github.com/dfabert/GoogleBooks/blob/main/client/public/images/Deployed_Saved.JPG?raw=true",
       link: "https://booklist0823.herokuapp.com/",
       repo: 'https://github.com/dfabert/GoogleBooks'
