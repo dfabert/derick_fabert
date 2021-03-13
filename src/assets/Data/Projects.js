@@ -20,6 +20,15 @@ const projects = [
 
     },
     {
+      id: 10,
+      name:  "This Portfolio",
+      description: "I built this portfolio on React and I usually test most of my new skills somewhere on here first.",
+      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
+      image:  "https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true",
+      link: "https://dfabert.github.io/derick_fabert/",
+      repo: 'https://github.com/dfabert/derick_fabert'
+    },
+    {
       id: 9,
       name:  "Day Planner",
       description: "This application is a single day planner where the user can enter tasks for each hour.  As the day goes on, the background colors will update for the current time as well as the past hours.  This is an example of how HTML, CSS and jQuery can be used as well as Moment.js.",
@@ -89,22 +98,13 @@ const projects = [
     {
       id: 8,
       name:  "Workout Tracker",
-      description: "This tracker is designed to keep track of recent workouts so the user can see progress and recall old workouts.",
-      technologies: ['MongoDB', 'Node', 'HTML5', 'CSS', 'Javascript'],
+      description: "This tracker is designed to keep track of recent workouts so the user can see progress and recall old workouts.  The backend uses a Mongo database with a Mongoose schema and routes are handled with Express.",
+      technologies: ['MongoDB', 'Express', 'Node', 'HTML5', 'CSS', 'Javascript'],
       image:  "https://github.com/dfabert/WorkoutTracker/blob/main/public/img/screenshots/index.JPG?raw=true",
       link: "https://salty-chamber-71317.herokuapp.com/?id=5fa55f8c2109c900177139f0",
       repo: 'https://github.com/dfabert/WorkoutTracker'
     }
-    ,
-    {
-      id: 10,
-      name:  "This Portfolio",
-      description: "I built this portfolio on React and I usually test most of my new skills somewhere on here first.",
-      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
-      image:  "https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true",
-      link: "https://dfabert.github.io/derick_fabert/",
-      repo: 'https://github.com/dfabert/derick_fabert'
-    }
+    
   ]
 
 export default projects;
