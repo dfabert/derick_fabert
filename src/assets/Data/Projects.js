@@ -2,8 +2,8 @@ const projects = [
     {
       id: 0,
       name:  "OmniCalculator",
-      description: "All of the calculators you need in one place!",
-      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript'],
+      description: "All of the calculators you need in one place!  This React.js application was created so that those who don't speak math can just enter numbers and get a result. Furthermore, each calculator has tested my javascript skills.  ",
+      technologies: ['React.js', 'HTML5', 'CSS', 'Javascript', 'MongoDB', 'Chart.js'],
       image:  "https://github.com/dfabert/derick_fabert/blob/main/src/assets/Photos/OmniCalc.JPG?raw=true",
       link: "https://omnicalculator2020.herokuapp.com",
       repo: 'https://github.com/dfabert/CalculatorApp'
