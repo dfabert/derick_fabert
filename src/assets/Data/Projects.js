@@ -41,7 +41,7 @@ const projects = [
     {
       id: 3,
       name:  "NBA Dashboard",
-      description: "During the NBA season, this application will pull the scores and times of today's games as well as track your favorite team",
+      description: "During the NBA season, this application will pull the scores and standings of the NBA.  It uses the TheSportsDB for the scores and standings and is another example of using an API.",
       technologies: ['HTML5', 'CSS', 'Javascript', 'API'],
       image:  "https://dfabert.github.io/DerickFabert/assets/Photos/thumbNBADB.jpg",
       link: "https://dfabert.github.io/NBADashboard/index.html",
@@ -58,8 +58,8 @@ const projects = [
     },
     {
       id: 5,
-      name:  "Eat The Burger",
-      description: "This is an app that allows the user to keep track of the burgers he or she would like to eat. When they eat the burger, they can hit devour and the burger will move to the other side.",
+      name:  "Eat Da Burger",
+      description: "This is an app that allows the user to keep track of the burgers he or she would like to eat. When they eat the burger, they can hit devour and the burger will move to the other side.  This is a simple example of using MySQL to store and edit data.",
       technologies: ['MySql', 'Express-handlebars','Node', 'HTML5', 'CSS', 'Javascript'],
       image:  "https://github.com/dfabert/BurgersToEat/blob/main/public/assets/img/deployed.jpg?raw=true",
       link: "https://safe-forest-88887.herokuapp.com/",
@@ -69,7 +69,7 @@ const projects = [
     {
       id: 6,
       name:  "Note Taker",
-      description: "Note taker and organizer with Express",
+      description: "Note taker and organizer with Express.  This application uses an express backend to save, retrieve, edit and delete notes from a JSON file.",
       technologies: ['Node', 'Express', 'HTML5', 'CSS', 'Javascript'],
       image:  "https://github.com/dfabert/NoteTaker/blob/master/public/assets/images/Notes.JPG?raw=true",
       link: "https://sleepy-lake-76565.herokuapp.com//",
