@@ -22,8 +22,8 @@ const projects = [
     {
       id: 9,
       name:  "Day Planner",
-      description: "This application is a single day planner where the user can enter tasks for each hour.  As the day goes on, the background colors will update for the current time as well as the past hours",
-      technologies: ['HTML5', 'CSS', 'Javascript'],
+      description: "This application is a single day planner where the user can enter tasks for each hour.  As the day goes on, the background colors will update for the current time as well as the past hours.  This is an example of how HTML, CSS and jQuery can be used as well as Moment.js.",
+      technologies: ['HTML5', 'CSS', 'Javascript', 'jQuery', 'Moment.js'],
       image:  "https://raw.githubusercontent.com/dfabert/DayPlanner/master/assets/DeployedImage.jpg",
       link: "https://dfabert.github.io/DayPlanner/",
       repo: 'https://github.com/dfabert/DayPlanner'
@@ -50,7 +50,7 @@ const projects = [
     {
       id: 4,
       name:  "Weather Dashboard",
-      description: "This weather dashboard is designed for people who want to look at different cities multiple times. The city will be saved in the local storage to be called back later.",
+      description: "This weather dashboard is designed for people who want to look at different cities multiple times.  The displayed forecast is from an the OpenWeather API. The city will be saved in the local storage to be called back later.",
       technologies: ['HTML5', 'CSS', 'Javascript', 'API', 'Local Storage'],
       image:  "https://github.com/dfabert/WXDashboard/blob/master/assets/deployed.jpg?raw=true",
       link: "https://dfabert.github.io/WXDashboard/",
