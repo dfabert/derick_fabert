@@ -88,8 +88,8 @@ const projects = [
     {
       id: 7,
       name:  "Travel Budget",
-      description: "This application will track your deposits and expenses, even when you are offline. Once you return to service, the application will update your online database.",
-      technologies: ['IndexedDB', 'Node', 'Express', 'HTML5', 'CSS', 'Javascript'],
+      description: "This progressive web application (PWA) will track your deposits and expenses, even when you are offline. Once you return to service, the application will update your online database.",
+      technologies: ['IndexedDB', 'Node', 'Express', 'HTML5', 'CSS', 'Javascript', 'PWA', 'MongoDB'],
       image:  "https://github.com/dfabert/TravelBudget/blob/main/public/assets/ScreenGrab.JPG?raw=true",
       link: "https://shrouded-river-56580.herokuapp.com/",
       repo: 'https://github.com/dfabert/TravelBudget'
