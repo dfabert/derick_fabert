@@ -15,6 +15,13 @@ h5 {
   padding-bottom: 5px;
 }
 
+.aboutMeContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
 .aboutMeLinks > a, .aboutMeLinks > a > img {
     margin: 15px;
     width: 75px;
@@ -37,6 +44,24 @@ h5 {
     background-color: rgba(0, 0, 0, 0.95);
 }
 
+@media only screen and (max-width: 775px){
+    .aboutMeLinks {
+        display: 'flex';
+        justify-content: 'space-between';
+        flex-wrap: 'wrap'
+    }
+
+    .aboutMeLinks > a, .aboutMeLinks > a > img {
+        margin: 5px;
+        width: 50px;
+    }
+    
+    .aboutMeLinks > button {
+        margin: 5px;
+        width: 100px;
+    }
+
+}
 
 
 
