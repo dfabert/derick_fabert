@@ -45,6 +45,10 @@ h5 {
 }
 
 @media only screen and (max-width: 775px){
+    .aboutMeContainer {
+        padding: 0px;
+    }
+
     .aboutMeLinks {
         display: 'flex';
         justify-content: 'space-between';
@@ -60,7 +64,6 @@ h5 {
         margin: 5px;
         width: 100px;
     }
-
 }
 
 
