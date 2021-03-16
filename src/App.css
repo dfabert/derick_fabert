@@ -50,9 +50,7 @@ h5 {
     }
 
     .aboutMeLinks {
-        display: 'flex';
-        justify-content: 'space-between';
-        flex-wrap: 'wrap'
+        margin: auto;
     }
 
     .aboutMeLinks > a, .aboutMeLinks > a > img {
