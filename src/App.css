@@ -6,16 +6,6 @@ body {
     background-size: cover;
 }
 
-.aboutMeLinks > a {
-    padding: 20px;
-    width: "115px"
-}
-
-.links {
-    padding: 20px;
-    width: "115px"
-}
-
 h1, h4, p, h5 {
     color: whitesmoke
 }
@@ -25,22 +15,28 @@ h5 {
   padding-bottom: 5px;
 }
 
-.container-sm  {
-    background-color: rgba(0, 0, 0, 0.95);
+.aboutMeLinks > a, .aboutMeLinks > a > img {
+    margin: 15px;
+    width: 75px;
 }
 
-.frontPage {
-    padding: 50px;
-    display: 'flex';
-    justify-content: 'space-between';
-    flex-wrap: 'wrap';
-    background-color: rgba(0, 0, 0, 0.95);
+.aboutMeLinks > button {
+    margin: 25px;
+    width: 100px;
+}
+
+.btn-primary {
+    margin: 2px;
 }
 
 .card-text {
     color: black;
 }
 
-.btn-primary {
-    margin: 2px;
+.container-sm  {
+    background-color: rgba(0, 0, 0, 0.95);
 }
+
+
+
+

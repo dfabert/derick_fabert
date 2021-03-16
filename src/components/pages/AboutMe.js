@@ -11,13 +11,13 @@ function AboutMe() {
           <h5>Full Stack Web Developer</h5>
       </div>
       <div className='aboutMeLinks'>
-          <button className="btn btn-primary"  style={{width: "115px"}}  href="https://dfabert.github.io/DerickFabert/assets/Glen%20Derick%20Fabert%20Resume.pdf" target="_blank" rel='noreferrer' role="button">Resume</button>
-          <a href="https://github.com/dfabert" target="_blank" rel='noreferrer'><img style={{width: "115px"}} src={image_github} alt="Github Logo" /></a>
-          <a href="https://www.linkedin.com/in/derick-fabert" target="_blank" rel='noreferrer'><img style={{width: "115px"}} src={image_LinkedIn} alt="LinkedIn Logo" /></a>
-          <a href="https://twitter.com/derick_fabert?lang=en" target="_blank" rel='noreferrer'><img style={{width: "115px"}} src={image_twitter} alt="TwitterLogo" /></a>
+          <button className="btn btn-primary"  href="https://dfabert.github.io/DerickFabert/assets/Glen%20Derick%20Fabert%20Resume.pdf" target="_blank" rel='noreferrer'>Resume</button>
+          <a href="https://github.com/dfabert" target="_blank" rel='noreferrer'><img src={image_github} alt="Github Logo" /></a>
+          <a href="https://www.linkedin.com/in/derick-fabert" target="_blank" rel='noreferrer'><img src={image_LinkedIn} alt="LinkedIn Logo" /></a>
+          <a href="https://twitter.com/derick_fabert?lang=en" target="_blank" rel='noreferrer'><img src={image_twitter} alt="TwitterLogo" /></a>
       </div>
       <div>
-        <div >
+        <div style={{padding: '20px'}} >
           <div>
             <img src="https://github.com/dfabert/DerickFabert/blob/master/assets/Photos/Derick.Fabert.0181-6x8.jpg?raw=true" alt="Derick Fabert" style={{float: "left", margin: "8px", width: "150px"}}/>
           </div>
