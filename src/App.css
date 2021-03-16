@@ -6,6 +6,11 @@ body {
     background-size: cover;
 }
 
+.aboutMeLinks > a {
+    padding: 20px;
+    width: "115px"
+}
+
 .links {
     padding: 20px;
     width: "115px"
@@ -21,6 +26,14 @@ h5 {
 }
 
 .container-sm  {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+.frontPage {
+    padding: 50px;
+    display: 'flex';
+    justify-content: 'space-between';
+    flex-wrap: 'wrap';
     background-color: rgba(0, 0, 0, 0.95);
 }
 
