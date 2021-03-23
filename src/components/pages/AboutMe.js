@@ -12,7 +12,7 @@ function AboutMe() {
             <h5>Full Stack Web Developer</h5>
         </div>
         <div className='aboutMeLinks'>
-            <button className="btn btn-primary"  href="https://dfabert.github.io/DerickFabert/assets/Glen%20Derick%20Fabert%20Resume.pdf" target="_blank" rel='noreferrer'>Resume</button>
+            <a href='https://dfabert.github.io/DerickFabert/assets/DerickFabertResume.pdf' target= "_blank" rel='noreferrer'><button className="btn btn-primary"  >Resume</button></a>
             <a href="https://github.com/dfabert" target="_blank" rel='noreferrer'><img src={image_github} alt="Github Logo" /></a>
             <a href="https://www.linkedin.com/in/derick-fabert" target="_blank" rel='noreferrer'><img src={image_LinkedIn} alt="LinkedIn Logo" /></a>
             <a href="https://twitter.com/derick_fabert?lang=en" target="_blank" rel='noreferrer'><img src={image_twitter} alt="TwitterLogo" /></a>
